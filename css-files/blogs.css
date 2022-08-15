@@ -1,0 +1,106 @@
+*{
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-header{
+    padding-bottom: 2%;
+    padding-top: 1%;
+    position:relative;
+    text-align: center;
+    align-self: center;
+    background-color: #7c3aed;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    color: aliceblue;
+    width: 90%;
+}
+
+.main-header .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.main-header .top-nav a{
+    /* background-color: aliceblue; */
+    color: aliceblue; 
+    padding: 1%;
+    text-align: center;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-decoration: none;
+
+}
+
+.content-body{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.content-body .blog01 {
+    max-width: 70%;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.content-body .blog02 {
+    max-width: 70%;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+
+
+
+
+
+.main-footer{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin: 1%;
+    position:relative;
+    text-align: center;
+    align-self: center;
+    background-color: #7c3aed;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    color: aliceblue;
+    width: 90%;
+}
+
+.main-footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.main-footer .footer-links a{
+    /* background-color: aliceblue; */
+    color: aliceblue; 
+    padding: 1%;
+    text-align: center;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-decoration: none;
+
+}

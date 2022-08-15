@@ -1,6 +1,8 @@
 *{
     font-family: 'Playfair Display SC', serif;
-    
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -12,9 +14,8 @@ body{
 
 .main-header{
     padding-bottom: 2%;
-    margin: 1%;
+    padding-top: 1%;
     position:relative;
-    top:-30px;
     text-align: center;
     align-self: center;
     background-color: #7c3aed;
@@ -33,7 +34,8 @@ body{
 }
 
 .main-header .top-nav a{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    color: aliceblue; 
     padding: 1%;
     text-align: center;
     margin-right: 1%;
@@ -53,7 +55,7 @@ body{
     max-width: 20%;
     max-height: 20%;
     border-radius: 30%;
-    padding: 4%;
+    /* padding: 1%; */
     align-self: center;
     justify-content: center;
 }
@@ -85,4 +87,46 @@ body{
     justify-content: center;
     text-align: center;
     padding-bottom: 1%;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
+
+.main-footer{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* position: fixed; */
+    bottom: 0;
+    
+    /* position:relative; */
+    text-align: center;
+    align-self: center;
+    background-color: #7c3aed;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    color: aliceblue;
+    width: 90%;
+}
+
+.main-footer .footer-links {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.main-footer .footer-links a{
+    /* background-color: aliceblue; */
+    color: aliceblue; 
+    padding: 1%;
+    text-align: center;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-decoration: none;
+
 }
