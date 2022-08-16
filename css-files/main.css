@@ -13,7 +13,7 @@ body{
 }
 
 .main-header{
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     padding-top: 1%;
     position:relative;
     text-align: center;
@@ -44,14 +44,18 @@ body{
 
 }
 
+
+
 .content-body{
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
+    padding: 3%;
 }
 
 .content-body .deepJpg{
+    padding-bottom: 3%;
     max-width: 20%;
     max-height: 20%;
     border-radius: 30%;
@@ -63,6 +67,7 @@ body{
 .content-body .intro{
     align-self: center;
     justify-content: center;
+    padding-bottom: 3%;
 }
 
 .content-body .tech-stack {
@@ -70,7 +75,16 @@ body{
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 1%;
+    padding: 2%;
+    width: 90%;
+    border-radius: 2em;
+    margin: 2%;
+    /* color: ; */
+    background-color: #f3f4f6;
+}
+
+.content-body .tech-stack p{
+    padding: 3%;
 }
 
 .content-body .projects-div {
@@ -78,15 +92,49 @@ body{
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 1%;
+    padding: 2%;
+    width: 90%;
+    margin: 2%;
 }
+
+.content-body .projects-div p{
+    padding: 3%;
+}
+
+.content-body .projects-div a{
+    padding: 2%;
+    text-decoration: none;
+    padding: 1%;
+    color: aliceblue;
+    background-color: #7c3aed;
+    border-radius: 2em;
+}
+
 
 .content-body .blogs-div {
     max-width: 70%;
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 1%;
+    padding: 2%;
+    border-radius: 2em;
+    /* color: aliceblue; */
+    background-color: #f3f4f6;
+    width: 90%;
+    margin: 2%;
+}
+
+.content-body .blogs-div p{
+    padding: 3%;
+}
+
+.content-body .blogs-div a{
+    padding: 1%;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #7c3aed;
+    border-radius: 2em;
+
 }
 
 .footer{
@@ -117,7 +165,7 @@ body{
     flex-direction: row;
     align-self: center;
     justify-content: center;
-    
+    padding-top: 1%;
 }
 
 .main-footer .footer-links a{

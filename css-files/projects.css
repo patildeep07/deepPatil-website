@@ -13,7 +13,7 @@ body{
 }
 
 .main-header{
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     padding-top: 1%;
     position:relative;
     text-align: center;
@@ -44,11 +44,32 @@ body{
 
 }
 
+.main-div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding: 3%;
+}
+
 .content-body{
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
+    padding: 3%;
+}
+
+.project-btn-grp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-btn-grp a{
+    /* padding: 10%; */
+    margin: 1%;
 }
 
 .content-body .mark01 {
@@ -56,7 +77,24 @@ body{
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 1%;
+    padding: 2%;
+    width: 90%;
+    border-radius: 1em;
+    margin: 2%;
+    /* color: ; */
+    background-color: #f3f4f6;
+}
+
+.content-body .mark01 p{
+    padding: 3%;
+}
+
+.content-body .mark01 a{
+    padding: 1%;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #7c3aed;
+    border-radius: 2em;
 }
 
 .content-body .mark02 {
@@ -64,7 +102,24 @@ body{
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 1%;
+    padding: 2%;
+    width: 90%;
+    border-radius: 1em;
+    margin: 2%;
+    /* color: ; */
+    background-color: #f3f4f6;
+}
+
+.content-body .mark02 p{
+    padding: 3%;
+}
+
+.content-body .mark02 a{
+    padding: 1%;
+    color: aliceblue;
+    text-decoration: none;
+    background-color: #7c3aed;
+    border-radius: 2em;
 }
 
 
@@ -72,14 +127,20 @@ body{
 
 
 
-
-
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+}
 
 .main-footer{
     padding-top: 1%;
-    padding-bottom: 2%;
-    margin: 1%;
-    position:relative;
+    padding-bottom: 1%;
+    /* position: fixed; */
+    bottom: 0;
+    
+    /* position:relative; */
     text-align: center;
     align-self: center;
     background-color: #7c3aed;
@@ -94,7 +155,7 @@ body{
     flex-direction: row;
     align-self: center;
     justify-content: center;
-    
+    padding-top: 1%;
 }
 
 .main-footer .footer-links a{
