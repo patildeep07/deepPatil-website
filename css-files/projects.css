@@ -94,6 +94,18 @@ body{
     color: aliceblue;
     text-decoration: none;
     background-color: #7c3aed;
+    border-style: solid;
+    border-color: #7c3aed;
+    border-radius: 2em;
+}
+
+.content-body .mark01 .second-btn{
+    padding: 1%;
+    color: #7c3aed;
+    text-decoration: none;
+    background-color: #f3f4f6;
+    border-color: #7c3aed;
+    border-style: dotted;
     border-radius: 2em;
 }
 
@@ -119,9 +131,20 @@ body{
     color: aliceblue;
     text-decoration: none;
     background-color: #7c3aed;
+    border-style: solid;
+    border-color: #7c3aed;
     border-radius: 2em;
 }
 
+.content-body .mark02 .second-btn{
+    padding: 1%;
+    color: #7c3aed;
+    text-decoration: none;
+    background-color: #f3f4f6;
+    border-color: #7c3aed;
+    border-style: dotted;
+    border-radius: 2em;
+}
 
 
 

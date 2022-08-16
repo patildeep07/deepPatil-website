@@ -81,9 +81,11 @@ body{
 
 .content-body .blog01 a{
     padding: 1%;
-    color: aliceblue;
+    /* color: aliceblue; */
     text-decoration: none;
-    background-color: #7c3aed;
+    background-color: #f3f4f6;
+    border-color: #7c3aed;
+    border-style: dotted;
     border-radius: 1em;
 }
 
@@ -106,10 +108,12 @@ body{
 
 .content-body .blog02 a{
     padding: 1%;
-    color: aliceblue;
+    /* color: aliceblue; */
     text-decoration: none;
-    background-color: #7c3aed;
-    border-radius: 2em;
+    background-color: #f3f4f6;
+    border-color: #7c3aed;
+    border-style: dotted;
+    border-radius: 1em;
 }
 
 
