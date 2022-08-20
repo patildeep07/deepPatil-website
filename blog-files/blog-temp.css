@@ -15,6 +15,8 @@ body{
 .main-header{
     padding-bottom: 1%;
     padding-top: 1%;
+    margin-bottom: 1%;
+
     position:relative;
     text-align: center;
     align-self: center;
@@ -44,77 +46,33 @@ body{
 
 }
 
-.main-div{
+.content {
+    max-width: 70%;
     display: flex;
     flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    padding: 3%;
+    align-items: center;
+    justify-content:center ;
+    /* text-align: left; */
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
-
-
-.content-body{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    justify-content: center;
-    padding: 3%;
-}
-
-.content-body .blog01 {
-    max-width: 70%;
-    align-self: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2%;
-    width: 90%;
-    border-radius: 1em;
-    margin: 2%;
-    /* color: ; */
-    background-color: #f3f4f6;
-}
-
-.content-body .blog01 p{
-    padding: 3%;
-}
-
-.content-body .blog01 a{
+.content h1 {
     padding: 1%;
-    /* color: aliceblue; */
-    text-decoration: none;
-    background-color: #f3f4f6;
-    border-color: #7c3aed;
-    border-style: dotted;
-    border-radius: 1em;
 }
 
-.content-body .blog02 {
-    max-width: 70%;
-    align-self: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2%;
-    width: 90%;
-    border-radius: 2em;
-    margin: 2%;
-    /* color: ; */
-    background-color: #f3f4f6;
-}
-
-.content-body .blog02 p{
-    padding: 3%;
-}
-
-.content-body .blog02 a{
+.content h2 {
     padding: 1%;
-    /* color: aliceblue; */
-    text-decoration: none;
-    background-color: #f3f4f6;
-    border-color: #7c3aed;
-    border-style: dotted;
-    border-radius: 1em;
 }
+
+.content p {
+    padding: 1%;
+}
+
+
 
 
 .footer{
@@ -127,10 +85,11 @@ body{
 .main-footer{
     padding-top: 1%;
     padding-bottom: 1%;
-    position: relative;
+    margin-top: 1%;
+    position:relative;
     bottom: 0;
     
-    /* position:relative; */
+    
     text-align: center;
     align-self: center;
     background-color: #7c3aed;
