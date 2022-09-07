@@ -100,6 +100,22 @@ body{
     background-color: #f3f4f6;
 }
 
+.content-body .mark:hover {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 10px 40px 10px;
+    border-radius: 2em;
+    border: dotted;
+    border-color: #2f2f2f;
+    background-color: #2f2f2f;
+    color: aliceblue;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    box-shadow: 10px 10px 10px  #636161;
+    transition: all 1s ease;
+}
+
 .content-body .mark p{
     padding: 20px 0px 20px 0px;
     text-align: justify;
@@ -107,24 +123,26 @@ body{
 
 .content-body .mark a{
     padding: 10px;
-    color: #7c3aed;
+    color: #2f2f2f;
+    font-weight: 500;
     text-decoration: none;
     background-color: #f3f4f6;
-    border-color: #7c3aed;
+    border-color: #fe6f27;
     border-style: dotted;
-    border-radius: 2em;
+    border-radius: 25px;
 }
 
 .content-body .mark a:hover{
     padding: 10px;
-    /* color: #f3f4f6; */
+    color: aliceblue;
+    font-weight: 700;
     text-decoration: none;
-    background-color: #7c3aed;
-    background-color: aliceblue;
-    border-color: #7c3aed;
+    background-color: #fe6f27;
+    border-color: #fe6f27;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: 500;
+    transition: all 0.6s ease;
 }
 
 .content-body .mark .second-btn{
@@ -134,19 +152,20 @@ body{
     background-color: #f3f4f6;
     border-color: #7c3aed;
     border-style: dotted;
-    border-radius: 2em;
+    border-radius: 25px;
 }
 
 .content-body .mark .second-btn:hover{
     padding: 10px;
-    /* color: #f3f4f6; */
+    color: aliceblue;
+    font-weight: 700;
     text-decoration: none;
-    background-color: #7c3aed;
-    background-color: aliceblue;
-    border-color: #7c3aed;
+    background-color: #fe6f27;
+    border-color: #fe6f27;
     border-style: solid;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: 500;
+    transition: all 0.6s ease;
 }
 
 
