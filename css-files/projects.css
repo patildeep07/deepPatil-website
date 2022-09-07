@@ -3,6 +3,7 @@
     text-align: center;
     margin: 0;
     padding: 0;
+    font-size: large;
 }
 
 body{
@@ -65,6 +66,10 @@ body{
     padding: 30px;
 }
 
+.main-div h2{
+    font-size: larger;
+}
+
 .content-body{
     display: flex;
     flex-direction: column;
@@ -97,7 +102,7 @@ body{
     border-color: #2f2f2f;
     margin: 20px;
     /* color: ; */
-    background-color: #f3f4f6;
+    background-color: #ededed;
 }
 
 .content-body .mark:hover {
@@ -123,7 +128,7 @@ body{
 
 .content-body .mark a{
     padding: 10px;
-    color: #2f2f2f;
+    color: #fe6f27;
     font-weight: 500;
     text-decoration: none;
     background-color: #f3f4f6;
