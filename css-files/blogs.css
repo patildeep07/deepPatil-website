@@ -54,6 +54,23 @@ body{
 
 }
 
+.main-header .top-nav a:hover {
+    color: #fe6f27; 
+    font-weight: 700;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+    margin: 2px 10px 10px 10px;
+    text-decoration: none;
+    border: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-width: 5px;
+    border-color: #fe6f27;
+    transition: all 0.3s ease;
+}
+
 
 /* Body Starts here */
 
