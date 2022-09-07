@@ -108,50 +108,7 @@ body{
     padding-bottom: 10px;
 }
 
-.content-body .tech-stack {
 
-    align-self: center;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-    width: 90%;
-    border-radius: 2em;
-    border: dotted;
-    border-color: #2f2f2f;
-    /* margin: 2%; */
-    /* color: ; */
-    background-color: #f3f4f6;
-}
-
-.content-body .tech-stack p{
-    padding: 20px;
-}
-
-.content-body .projects-div {
-    align-self: center;
-    justify-content: center;
-    text-align: center;
-    
-    padding: 20px;
-    width: 90%;
-    margin: 2%;
-}
-
-.content-body .projects-div p{
-    padding: 10px 0 20px 0;
-}
-
-.content-body .projects-div a{
-    padding: 10px;
-    /* color: aliceblue; */
-    text-decoration: none;
-    background-color: aliceblue;
-    border-color: #7c3aed;
-    border-style: dotted;
-    border-radius: 20px;
-    font-weight: 500;
-    /* margin: 3%; */
-}
 
 .blogs-div a:hover {
     padding: 10px;
@@ -186,14 +143,13 @@ body{
     padding: 30px 0px 40px 0px;
     border-radius: 2em;
     border: dotted;
-    /* border-color: #2f2f2f;
-    background-color: #f3f4f6; */
     border-color: #2f2f2f;
     background-color: #2f2f2f;
     color: aliceblue;
     width: 100%;
     margin: 10px 0 10px 0;
-    transition: all .4s ease;
+    box-shadow: 10px 10px 5px  #636161;
+    transition: all .6s ease;
 }
 
 .blogs-div h2{
@@ -207,7 +163,7 @@ body{
 
 .content-body .blogs-div a{
     padding: 10px;
-    /* color: aliceblue; */
+    color: #2f2f2f;
     text-decoration: none;
     background-color: aliceblue;
     border-color: #fe6f27;
