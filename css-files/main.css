@@ -10,19 +10,30 @@ body{
     /* flex-wrap: nowrap; */
     flex-direction: column;
     justify-content: center;
+    background-color: aliceblue;
+}
+
+.head {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
 }
 
 .main-header{
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-bottom: 10px;
+    padding-top: 10px;
     position:relative;
     text-align: center;
     align-self: center;
-    background-color: #7c3aed;
+    background-color: #2f2f2f;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
     color: aliceblue;
     width: 90%;
+}
+
+.main-header h1 {
+    color: aliceblue;
 }
 
 .main-header .top-nav {
@@ -34,9 +45,8 @@ body{
 }
 
 .main-header .top-nav a{
-    /* background-color: aliceblue; */
     color: aliceblue; 
-    padding: 1%;
+    padding: 10px;
     text-align: center;
     margin-right: 1%;
     margin-left: 1%;
@@ -46,39 +56,67 @@ body{
 
 
 
+/* Body starts here */
+
 .content-body{
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    padding: 3%;
+    padding: 30px;
+    background-color: aliceblue;
+}
+
+
+
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.inner-intro {
+    padding-left: 10px;
+    text-align:center;
+    width: 90%;
+    padding: 30px 20px 30px 20px;
+}
+
+.inner-intro p {
+    padding: 10px;
+    text-align: center;
 }
 
 .content-body .deepJpg{
-    padding: 5px;
     max-width: 20%;
     max-height: 20%;
     border-radius: 20px;
-    /* padding: 1%; */
     align-self: center;
     justify-content: center;
+    border: solid;
+    /* border-color: ; */
 }
 
 .content-body .intro{
     align-self: center;
     justify-content: center;
-    padding-bottom: 3%;
+    padding-bottom: 10px;
 }
 
 .content-body .tech-stack {
-    max-width: 70%;
+
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding: 2%;
+    padding: 20px;
     width: 90%;
     border-radius: 2em;
-    margin: 2%;
+    /* margin: 2%; */
     /* color: ; */
     background-color: #f3f4f6;
 }
@@ -88,11 +126,10 @@ body{
 }
 
 .content-body .projects-div {
-    max-width: 70%;
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding: 2%;
+    padding: 20px;
     width: 90%;
     margin: 2%;
 }
@@ -105,25 +142,36 @@ body{
     padding: 10px;
     /* color: aliceblue; */
     text-decoration: none;
-    background-color: #f3f4f6;
+    background-color: aliceblue;
     border-color: #7c3aed;
     border-style: dotted;
     border-radius: 20px;
-    margin: 3%;
+    font-weight: 500;
+    /* margin: 3%; */
+}
+
+.projects-div a:hover {
+    padding: 10px;
+    /* color: #f3f4f6; */
+    text-decoration: none;
+    background-color: #7c3aed;
+    background-color: aliceblue;
+    border-color: #7c3aed;
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: 500;
 }
 
 
 .content-body .blogs-div {
-    max-width: 70%;
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px 30px 0px;
     border-radius: 2em;
-    /* color: aliceblue; */
     background-color: #f3f4f6;
     width: 90%;
-    margin: 2%;
+    margin: 10px;
 }
 
 .blogs-div h2{
@@ -139,11 +187,34 @@ body{
     padding: 10px;
     /* color: aliceblue; */
     text-decoration: none;
-    background-color: #f3f4f6;
+    background-color: aliceblue;
     border-color: #7c3aed;
     border-style: dotted;
     border-radius: 20px;
-    margin: 3%;
+    font-weight: 500;
+    /* margin: 3%; */
+}
+
+.blogs-div a:hover {
+    padding: 10px;
+    /* color: #f3f4f6; */
+    text-decoration: none;
+    background-color: #7c3aed;
+    background-color: aliceblue;
+    border-color: #7c3aed;
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+
+
+/* Footer Starts here */
+
+.foot {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
 }
 
 .footer{
@@ -154,15 +225,12 @@ body{
 }
 
 .main-footer{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    /* position: fixed; */
+    padding-bottom: 15px;
+    padding-top: 15px;
     bottom: 0;
-    
-    /* position:relative; */
     text-align: center;
     align-self: center;
-    background-color: #7c3aed;
+    background-color: #2f2f2f;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
     color: aliceblue;
@@ -171,14 +239,12 @@ body{
 
 .main-footer h2 {
     font-size: 20px;
+    color: aliceblue
 }
 
 .main-footer .footer-links {
     display: inline-block;
-    /* flex-direction: row;
-    align-self: center;
-    justify-content: center; */
-    padding-top: 1%;
+    padding-top: 10px;
     font-size: 20px;
     width: 70%;
 }
@@ -188,8 +254,13 @@ body{
     color: aliceblue; 
     padding: 1px;
     text-align: center;
-    margin-right: 1%;
-    margin-left: 1%;
+    margin-right: 10px;
+    margin-left: 10px;
     text-decoration: none;
 
+}
+
+.main-footer p {
+    padding: 10px 0px 0px 0px;
+    font-size: small;
 }

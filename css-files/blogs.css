@@ -10,19 +10,30 @@ body{
     /* flex-wrap: nowrap; */
     flex-direction: column;
     justify-content: center;
+    background-color: aliceblue;
+}
+
+.head {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
 }
 
 .main-header{
-    padding-bottom: 1%;
-    padding-top: 1%;
+    padding-bottom: 10px;
+    padding-top: 10px;
     position:relative;
     text-align: center;
     align-self: center;
-    background-color: #7c3aed;
+    background-color: #2f2f2f;
     border-bottom-left-radius: 2em;
     border-bottom-right-radius: 2em;
     color: aliceblue;
     width: 90%;
+}
+
+.main-header h1 {
+    color: aliceblue;
 }
 
 .main-header .top-nav {
@@ -34,9 +45,8 @@ body{
 }
 
 .main-header .top-nav a{
-    /* background-color: aliceblue; */
     color: aliceblue; 
-    padding: 1%;
+    padding: 10px;
     text-align: center;
     margin-right: 1%;
     margin-left: 1%;
@@ -44,12 +54,16 @@ body{
 
 }
 
+
+/* Body Starts here */
+
+
 .main-div{
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    padding: 3%;
+    padding: 20px;
 }
 
 
@@ -59,28 +73,30 @@ body{
     flex-direction: column;
     align-self: center;
     justify-content: center;
-    padding: 3%;
+    padding: 20px;
 }
 
-.content-body .blog01 {
-    max-width: 70%;
+.content-body .blog {
+    max-width: 90%;
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding: 2%;
+    padding: 20px 0px 30px 0px;
     width: 90%;
     border-radius: 1em;
-    margin: 2%;
+    border: dotted;
+    border-color: #2f2f2f;
+    margin: 20px;
     /* color: ; */
     background-color: #f3f4f6;
 }
 
-.content-body .blog01 p{
-    padding: 3%;
+.content-body .blog p{
+    padding: 30px;
 }
 
-.content-body .blog01 a{
-    padding: 1%;
+.content-body .blog a{
+    padding: 10px;
     /* color: aliceblue; */
     text-decoration: none;
     background-color: #f3f4f6;
@@ -89,33 +105,27 @@ body{
     border-radius: 1em;
 }
 
-.content-body .blog02 {
-    max-width: 70%;
-    align-self: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2%;
-    width: 90%;
-    border-radius: 2em;
-    margin: 2%;
-    /* color: ; */
-    background-color: #f3f4f6;
-}
-
-.content-body .blog02 p{
-    padding: 3%;
-}
-
-.content-body .blog02 a{
-    padding: 1%;
-    /* color: aliceblue; */
+.content-body .blog a:hover {
+    padding: 10px;
+    /* color: #f3f4f6; */
     text-decoration: none;
-    background-color: #f3f4f6;
+    background-color: #7c3aed;
+    background-color: aliceblue;
     border-color: #7c3aed;
-    border-style: dotted;
-    border-radius: 1em;
+    border-style: solid;
+    border-radius: 20px;
+    font-weight: 500;
 }
 
+
+
+/* Footer Starts here */
+
+.foot {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
 
 .footer{
     display: flex;
@@ -125,36 +135,42 @@ body{
 }
 
 .main-footer{
-    padding-top: 1%;
-    padding-bottom: 1%;
-    position: relative;
+    padding-bottom: 15px;
+    padding-top: 15px;
     bottom: 0;
-    
-    /* position:relative; */
     text-align: center;
     align-self: center;
-    background-color: #7c3aed;
+    background-color: #2f2f2f;
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
     color: aliceblue;
     width: 90%;
 }
 
+.main-footer h2 {
+    font-size: 20px;
+    color: aliceblue
+}
+
 .main-footer .footer-links {
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: center;
-    padding-top: 1%;
+    display: inline-block;
+    padding-top: 10px;
+    font-size: 20px;
+    width: 70%;
 }
 
 .main-footer .footer-links a{
     /* background-color: aliceblue; */
     color: aliceblue; 
-    padding: 1%;
+    padding: 1px;
     text-align: center;
-    margin-right: 1%;
-    margin-left: 1%;
+    margin-right: 10px;
+    margin-left: 10px;
     text-decoration: none;
 
+}
+
+.main-footer p {
+    padding: 10px 0px 0px 0px;
+    font-size: small;
 }
