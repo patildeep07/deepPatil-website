@@ -10,11 +10,11 @@ body{
     /* flex-wrap: nowrap; */
     flex-direction: column;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 .head {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
 }
@@ -28,7 +28,7 @@ body{
     background-color: #2f2f2f;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
-    color: aliceblue;
+    /* color: aliceblue; */
     width: 95%;
 }
 
@@ -45,7 +45,7 @@ body{
 }
 
 .main-header .top-nav a{
-    color: aliceblue; 
+    color: #f8fbff; 
     padding: 10px;
     text-align: center;
     margin-right: 10px;
@@ -81,7 +81,7 @@ body{
     align-self: center;
     justify-content: center;
     padding: 30px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
 }
 
 
@@ -112,11 +112,10 @@ body{
 .content-body .deepJpg{
     max-width: 30%;
     max-height: 30%;
-    border-radius: 20px;
+    border-radius: 10px;
     align-self: center;
     justify-content: center;
     border: solid;
-    /* border-color: ; */
 }
 
 .content-body .intro{
@@ -125,7 +124,34 @@ body{
     padding-bottom: 10px;
 }
 
+.intro-div {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-radius: 2em;
+    border: dotted;
+    border-color: #2f2f2f;
+    background-color: #f8fbff;
+    width: 95%;
+    margin: 10px 0 10px 0;
+}
 
+.intro-div:hover {
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-radius: 2em;
+    border: dotted;
+    border-color: #2f2f2f;
+    background-color: #2f2f2f;
+    color: aliceblue;
+    width: 95%;
+    margin: 10px 0 10px 0;
+    box-shadow: 5px 5px 10px  #636161;
+    transition: all .6s ease;
+}
 
 .blogs-div a:hover {
     padding: 10px;
@@ -148,7 +174,7 @@ body{
     border-radius: 2em;
     border: dotted;
     border-color: #2f2f2f;
-    background-color: #f3f4f6;
+    background-color: #f8fbff;
     width: 95%;
     margin: 10px 0 10px 0;
 }
@@ -157,15 +183,15 @@ body{
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding: 30px 10px 40px 10px;
+    padding: 20px 0px 30px 0px;
     border-radius: 2em;
     border: dotted;
     border-color: #2f2f2f;
     background-color: #2f2f2f;
     color: aliceblue;
-    width: 100%;
+    width: 95%;
     margin: 10px 0 10px 0;
-    box-shadow: 10px 10px 5px  #636161;
+    box-shadow: 5px 5px 10px  #636161;
     transition: all .6s ease;
 }
 
@@ -182,8 +208,8 @@ body{
     padding: 10px;
     color: #2f2f2f;
     text-decoration: none;
-    background-color: aliceblue;
-    border-color: #fe6f27;
+    background-color: #f8fbff;
+    border-color: #7c3aed;
     border-style: dashed;
     border-radius: 25px;
     font-weight: 500;
@@ -209,7 +235,7 @@ body{
 /* Footer Starts here */
 
 .foot {
-    background-color: aliceblue;
+    background-color: whitesmoke;
     display: flex;
     justify-content: center;
 }

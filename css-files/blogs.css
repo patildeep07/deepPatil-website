@@ -10,7 +10,7 @@ body{
     /* flex-wrap: nowrap; */
     flex-direction: column;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: whitesmoke;
 }
 
 .head {
@@ -105,21 +105,21 @@ body{
     border-color: #2f2f2f;
     margin: 20px;
     /* color: ; */
-    background-color: #f3f4f6;
+    background-color: #f8fbff;
 }
 
 .content-body .blog:hover {
     align-self: center;
     justify-content: center;
     text-align: center;
-    padding: 30px 50px 40px 50px;
+    padding: 20px;
     border-radius: 2em;
     border: dotted;
     border-color: #2f2f2f;
     background-color: #2f2f2f;
     color: aliceblue;
-    width: 80%;
-    margin: 20px 0 20px 0;
+    width: 75%;
+    margin: 20px;
     box-shadow: 10px 10px 10px  #636161;
     transition: all 1s ease;
 }
@@ -134,7 +134,7 @@ body{
     color: #2f2f2f;
     font-weight: 500;
     text-decoration: none;
-    background-color: #f3f4f6;
+    background-color: #f8fbff;
     border-color: #fe6f27;
     border-style: dashed;
     border-radius: 25px;
