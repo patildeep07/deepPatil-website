@@ -99,7 +99,7 @@ body{
     justify-content: center;
     text-align: center;
     padding: 20px;
-    width: 75%;
+    width: 95%;
     border-radius: 1em;
     border: dotted;
     border-color: #2f2f2f;
@@ -118,7 +118,7 @@ body{
     border-color: #2f2f2f;
     background-color: #2f2f2f;
     color: aliceblue;
-    width: 75%;
+    width: 95%;
     margin: 20px;
     box-shadow: 10px 10px 10px  #636161;
     transition: all 1s ease;
